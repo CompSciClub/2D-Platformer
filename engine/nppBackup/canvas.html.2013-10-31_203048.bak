@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hopkins CSC Platformer</title>
+	</head>
+	<body>
+		<canvas>
+
+		</canvas>
+	</body>
+</html>
