@@ -4,4 +4,6 @@ $(window).on("resize load", function(){
 
     $("#game").css("width", w + "px");
     $("#game").css("height", h + "px"); 
+
+    render.setCanvasSize(w, h);
 });
