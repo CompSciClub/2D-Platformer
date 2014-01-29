@@ -36,8 +36,8 @@ render = (function(){
 			var object = self.state.objects[i];
 
 			//skip the object if it's outside the canvas
-			if (object.dynamic.x > max_x || object.dynamic.x + object.static.width < min_x ||
-			    object.dynamic.y > may_y || object.dynamic.y + object.static.width < min_y) {
+			if (object.dynamic.x > max_x || object.dynamic.x + object._static.width < min_x ||
+			    object.dynamic.y > may_y || object.dynamic.y + object._static.width < min_y) {
 				continue;
 			}
 
