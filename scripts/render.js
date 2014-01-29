@@ -41,7 +41,7 @@ render = (function(){
 				continue;
 			}
 
-			ctx.drawImage(object.static.images[object.dynamic.animationFrame], object.dynamic.x - min_x, object.dynamic.y - min_y);
+			ctx.drawImage(object._static.images[object.dynamic.animationFrame], object.dynamic.x - min_x, object.dynamic.y - min_y);
 		}
 	};
 
